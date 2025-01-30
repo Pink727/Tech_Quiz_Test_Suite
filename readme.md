@@ -55,6 +55,13 @@ This project uses Cypress for both component and end-to-end testing. To run the 
    ```bash
    npm run cypress:open
    ```
+### Component Test
+
+![Component Test](./assets/componenttest.png)
+
+### e2e Test
+
+![e2e Test](./assets/e2etest.png)
 
 The tests are located in the `cypress` directory:
 - Component tests: `cypress/component/`

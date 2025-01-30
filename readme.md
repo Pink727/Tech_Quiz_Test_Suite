@@ -57,11 +57,11 @@ This project uses Cypress for both component and end-to-end testing. To run the 
    ```
 ### Component Test
 
-![Component Test](./assets/componenttest.png)
+![Component Test](./assets/componenttest.PNG)
 
 ### e2e Test
 
-![e2e Test](./assets/e2etest.png)
+![e2e Test](./assets/e2etest.PNG)
 
 The tests are located in the `cypress` directory:
 - Component tests: `cypress/component/`

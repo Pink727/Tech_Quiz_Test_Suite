@@ -1,6 +1,4 @@
 {
-  "name": "coding-quiz",
-  "version": "1.0.0",
   "description": "",
   "type": "module",
   "scripts": {
@@ -14,7 +12,9 @@
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build",
-    "test": "cypress run",
+    "test": "npm run test:e2e && npm run test:component",
+    "test:e2e": "cypress run",
+    "test:component": "cypress run --component",
     "cypress:open": "cypress open"
   },
   "keywords": [],
@@ -32,5 +32,8 @@
     "typescript": "^5.5.3",
     "vitest": "^2.0.3",
     "wait-on": "^7.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.12.0"
   }
 }
